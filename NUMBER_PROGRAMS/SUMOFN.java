@@ -1,0 +1,22 @@
+package NUMBER_PROGRAMS;
+
+import java.util.Scanner;
+//sum of n
+public class SUMOFN {
+    static int sum(int n){
+        int sum=0;
+        while(n>0){
+            int rem=n%10;
+            sum+=rem;
+            n/=10;
+        }
+        //System.out.println();
+        return sum;
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter n:");
+        int n=sc.nextInt();
+        System.out.println(sum(n));
+    }
+}
