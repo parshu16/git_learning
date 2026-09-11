@@ -2,10 +2,10 @@ package NUMBER_PROGRAMS;
 
 import java.util.Scanner;
 
-public class FIRST10EVEN {
-    static void even(){
+class FIRST10ODD {
+    static void odd(){
         for(int i=1;i<=10;i++){
-            if(i%2==0){
+            if(i%2!=0){
            System.out.println(i); 
         }
     }
@@ -15,6 +15,6 @@ public class FIRST10EVEN {
         // System.out.println("Enter n:");
         // int n=
         //System.out.println(even());
-        even();
+        odd();
     }
 }
