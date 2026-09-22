@@ -9,7 +9,6 @@ public class NTHFIBO {
             a=b;
             b=c;
         }
-
     }
     public static void main(String[]aStrings){
         Scanner sc=new Scanner(System.in);
