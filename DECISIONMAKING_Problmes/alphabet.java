@@ -12,6 +12,7 @@ public class alphabet {
         System.out.println("Enter a character:");
         char ch=sc.next().charAt(0);
         System.out.println(Alphabet(ch));
+        sc.close();
     }
 }
 
